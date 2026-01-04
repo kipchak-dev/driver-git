@@ -1,0 +1,28 @@
+{
+    "name": "kipchak/driver-couchdb",
+    "type": "middleware",
+    "description": "A CouchDB driver (dependency) for the Kipchak API Development Kit (ADK)",
+    "keywords": [
+        "APIs",
+        "CouchDB",
+        "Microservices",
+        "Mamluk"
+    ],
+    "homepage": "https://mamluk.net",
+    "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Kipchak\\Driver\\Git\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "czproject/git-php": "^4.6",
+        "kipchak/core": "^2",
+        "kipchak/driver-logger": "^1"
+    }
+}
