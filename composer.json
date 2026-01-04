@@ -1,10 +1,10 @@
 {
-    "name": "kipchak/driver-couchdb",
+    "name": "kipchak/driver-git",
     "type": "middleware",
-    "description": "A CouchDB driver (dependency) for the Kipchak API Development Kit (ADK)",
+    "description": "A Git driver (dependency) for the Kipchak API Development Kit (ADK)",
     "keywords": [
         "APIs",
-        "CouchDB",
+        "Git",
         "Microservices",
         "Mamluk"
     ],
