@@ -26,7 +26,7 @@ class Git implements Interfaces\Driver
             $repositories = Config::get($configFileName)['repositories'];
             foreach($repositories as $name => $connectionDetails) {
                 self::$container->set('drivers.git.' . $name, function (ContainerInterface $c) use ($name, $connectionDetails, $clonePath): GitRepository {
-                    $cloneDir = $connectionDetails['clone_dir'] . '/' . $name;
+                    $cloneDir = $clonePath . '/' . $name;
                     $git = new CzGit();
                     if (is_dir($cloneDir) && is_dir($cloneDir . '/.git')) {
                         // Repo already cloned. Open and return it.
