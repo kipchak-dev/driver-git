@@ -1,4 +1,4 @@
-# CouchDB Driver for Kipchak
+# Git Driver for Kipchak
 
 This driver is based on the  CZGit PHP library.
 
