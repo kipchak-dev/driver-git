@@ -53,7 +53,7 @@ Install it via composer: `composer require kipchak/driver-git`.
 \Mamluk\Kipchak\Driver\Git\Git::iniitalise($container);
 
 // Load the Git driver.
-$couchdb = Kipchak\Driver\Git\Git::get('default'); // default is the repository name in the config file.
+$git = Kipchak\Driver\Git\Git::get('default'); // default is the repository name in the config file.
 // Use the $git client as you would the GitRepository class in the CzGit client.
 ```
 
