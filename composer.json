@@ -22,6 +22,6 @@
     "prefer-stable": true,
     "require": {
         "czproject/git-php": "^4.6",
-        "kipchak/core": "^2"
+        "kipchak/core": "^2 || ^3"
     }
 }
