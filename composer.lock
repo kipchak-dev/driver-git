@@ -209,11 +209,11 @@
         },
         {
             "name": "kipchak/core",
-            "version": "3.13",
+            "version": "3.14",
             "source": {
                 "type": "git",
                 "url": "https://1x.ax/mamluk/kipchak/core",
-                "reference": "0c4cb01c5697de81d8613acefc3bd760701e17c9"
+                "reference": "6d7325909995d3f38808e48249d97f1b39c85aa3"
             },
             "require": {
                 "cuyz/valinor": "^2",
@@ -242,7 +242,7 @@
                 "apis",
                 "microservices"
             ],
-            "time": "2026-11-01T05:25:39+00:00"
+            "time": "2026-11-02T11:05:17+00:00"
         },
         {
             "name": "laravel/serializable-closure",
