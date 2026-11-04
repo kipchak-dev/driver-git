@@ -23,5 +23,19 @@
     "require": {
         "czproject/git-php": "^4.6",
         "kipchak/core": "^2 || ^3"
+    },
+    "extra": {
+        "kipchak": {
+            "type": "driver",
+            "config": "sample.config.php",
+            "configName": "kipchak.git.php",
+            "initialise": "\\Kipchak\\Driver\\Git\\Git::initialise($container);",
+            "after": [
+                "kipchak/driver-config",
+                "kipchak/driver-logger"
+            ],
+            "before": [],
+            "docs": "https://kipchak.dev/docs/driver-git"
+        }
     }
 }
