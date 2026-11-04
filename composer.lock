@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d88149f42526e575ad066996cee4f14",
+    "content-hash": "8a1237b04c66c061385033aa49f889f6",
     "packages": [
         {
             "name": "cuyz/valinor",
@@ -209,11 +209,17 @@
         },
         {
             "name": "kipchak/core",
-            "version": "3.15",
+            "version": "3.16",
             "source": {
                 "type": "git",
-                "url": "https://1x.ax/mamluk/kipchak/core",
-                "reference": "1d07aada639ee3d6edd247d03a8fe1b6927559d4"
+                "url": "https://github.com/kipchak-dev/core.git",
+                "reference": "ed6afa47aa5a49abc62b5cc8cbca12ef9651cb5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kipchak-dev/core/zipball/ed6afa47aa5a49abc62b5cc8cbca12ef9651cb5e",
+                "reference": "ed6afa47aa5a49abc62b5cc8cbca12ef9651cb5e",
+                "shasum": ""
             },
             "require": {
                 "cuyz/valinor": "^2",
@@ -242,7 +248,10 @@
                 "apis",
                 "microservices"
             ],
-            "time": "2026-11-02T16:10:48+00:00"
+            "support": {
+                "source": "https://github.com/kipchak-dev/core/tree/3.16"
+            },
+            "time": "2026-11-04T02:49:26+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -2203,16 +2212,16 @@
         },
         {
             "name": "zircote/swagger-php",
-            "version": "6.20.1",
+            "version": "6.20.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "34f1bcc414012cf0ffbc747b0dc418bb67090c2f"
+                "reference": "fb6f36bc3287e2843d8dc4dff5621b84924d5d8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/34f1bcc414012cf0ffbc747b0dc418bb67090c2f",
-                "reference": "34f1bcc414012cf0ffbc747b0dc418bb67090c2f",
+                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/fb6f36bc3287e2843d8dc4dff5621b84924d5d8f",
+                "reference": "fb6f36bc3287e2843d8dc4dff5621b84924d5d8f",
                 "shasum": ""
             },
             "require": {
@@ -2284,7 +2293,7 @@
             ],
             "support": {
                 "issues": "https://github.com/zircote/swagger-php/issues",
-                "source": "https://github.com/zircote/swagger-php/tree/6.20.1"
+                "source": "https://github.com/zircote/swagger-php/tree/6.20.2"
             },
             "funding": [
                 {
@@ -2292,7 +2301,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-30T21:52:05+00:00"
+            "time": "2026-11-03T19:52:48+00:00"
         }
     ],
     "packages-dev": [],
