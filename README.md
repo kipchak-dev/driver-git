@@ -10,8 +10,8 @@ It supports multiple Git repository connections.
 
 #### Sample Config File:
 
-This config file should be placed in your Kipchak project's config directory, as in the starter
-project at https://1x.ax/mamluk/kipchak/starter/~files/master/config/kipchak.git.php.
+This config file should be placed in your Kipchak project's config directory, as in the examples
+project at https://github.com/kipchak-dev/examples/blob/master/config/kipchak.git.php.
 
 The config file should look like this (also avalable in sample.config.php):
 
